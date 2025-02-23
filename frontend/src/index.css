@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    height: 10vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: #1565c0;
+    border-radius: 5px;
+}
+
+.login-signup {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav .login {
+    margin-right: 10px;
+}
+
+.username {
+    margin-right: 15px;
+    color: white;
+}
+
+
+/* Login */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    background-color: #e3f2fd;
+} 
+
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    align-items: center;
+}
+
+.login-page h3 {
+    color: lightslategrey;
+}
+
+.login-page button {
+    padding: 5px 15px; 
+}
+
+.username-login {
+    display: flex;
+    gap: 1.5vw;
+} 
+
+.password-login {
+    display: flex;
+    gap: 1.5vw;
+} 
+
+
+/* Signup */
+
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    background-color: #e3f2fd;
+} 
+
+
+.signup-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    align-items: center;
+}
+
+.signup-page h3 {
+    color: lightslategrey;
+}
+
+.signup-page button {
+    padding: 5px 15px; 
+}
+
+.username-signup {
+    display: flex;
+    gap: 1.5vw;
+} 
+
+.password-signup {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.error {
+    color: red;
+    max-width: 25vw;
+}
+
+/* Home */
+
+.home {
+    height: 89vh;
+    display: flex;
+}
+
+.tasks {
+    width: 65vw;
+    overflow-y: scroll;
+    background-color: #e3f2fd ;
+}
+
+.task { 
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vh;
+}
+
+.task button {
+    align-self: center;
+    padding: 1px 15px; 
+}
+
+
+
+.task-form {
+    background-color: #42a5f5;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    color: whitesmoke;
+}
+
+.complete-status input {
+    width: 18px;
+    height: 18px;
+}
+
+
+.complete-status {
+    display: flex;
+    gap: 2.5vw;
+    justify-content: center;
+}
+
+.create button {
+    align-self: center;
+    padding: 1px 8px;
+}
+
+.task-edit {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vh;
+}
